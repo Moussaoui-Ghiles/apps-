@@ -12,7 +12,7 @@ from langchain.prompts.chat import (
 )
 import textwrap
 import streamlit as st 
-
+import openai
 
 openai.api_key = st.secrets.key
 embeddings = OpenAIEmbeddings()
