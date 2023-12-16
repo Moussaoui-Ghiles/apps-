@@ -4,5 +4,6 @@ openai==1.4.0
 streamlit==1.29.0
 youtube_transcript_api==0.6.1
 tiktoken==0.5.2
+faiss==1.5.3
 
 
