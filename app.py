@@ -14,7 +14,7 @@ import textwrap
 import streamlit as st 
 
 
-load_dotenv(find_dotenv())
+openai.api_key = st.secrets.key
 embeddings = OpenAIEmbeddings()
 
 
